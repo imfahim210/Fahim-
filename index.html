@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #007bff; color: white; padding: 20px; text-align: center; }
+        section { padding: 20px; text-align: center; }
+        .services, .products { display: flex; justify-content: center; gap: 20px; }
+        .service, .product { background: #f4f4f4; padding: 20px; border-radius: 5px; }
+        .contact-form { max-width: 400px; margin: auto; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; }
+        button { background: #007bff; color: white; padding: 10px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Business</h1>
+        <p>We provide top-notch services to help your business grow.</p>
+    </header>
+    
+    <section>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service"><h3>Consulting</h3><p>Expert advice for your business.</p></div>
+            <div class="service"><h3>Marketing</h3><p>Boost your brand reach.</p></div>
+            <div class="service"><h3>Development</h3><p>Custom solutions for your needs.</p></div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Our Product Collection</h2>
+        <div class="products">
+            <div class="product"><h3>Product 1</h3><p>High-quality product for your needs.</p></div>
+            <div class="product"><h3>Product 2</h3><p>Top-rated and customer-approved.</p></div>
+            <div class="product"><h3>Product 3</h3><p>Designed for efficiency and reliability.</p></div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
